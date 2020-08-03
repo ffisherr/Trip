@@ -17,6 +17,11 @@ def index():
     # return render_template('index.html')
 
 
+@app.route('/help')
+def help():
+    return 'help'
+
+
 @app.route('/info')
 def info():
     return render_template('index.html')
